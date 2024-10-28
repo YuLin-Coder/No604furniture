@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+<!-- 配置数据源 -->
+<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+	    <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
+	    <property name="url" value="jdbc:mysql://localhost:3306/furniture?useUnicode=true&amp;characterEncoding=utf8&amp;serverTimezone=GMT%2B8"/>
+	    <property name="username" value="root"/>
+	    <property name="password" value="root"/>
+	     <!-- 连接池启动时的初始值 -->
+		<property name="initialSize" value="30"/>
+		
+	 	<!-- 连接池的最大值 -->
+	 	<property name="maxActive" value="500"/> 
+ 		<!-- 最大空闲值.当经过一个高峰时间后，连接池可以慢慢将已经用不到的连接慢慢释放一部分，一直减少到maxIdle为止 -->
+		<property name="maxIdle" value="2"/>
+		<!--  最小空闲值.当空闲的连接数少于阀值时，连接池就会预申请去一些连接，以免洪峰来时来不及申请 -->
+		<property name="minIdle" value="1"/>
+</bean>
+
+<!-- 配置会话工厂() -->
+<bean id="sessionFactory"  class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+     <!-- 设置数据源 -->
+     <property name="dataSource" ref="dataSource"/>
+     <!-- 接管了hibernate对象映射文件 -->
+     
+	    <property name="annotatedClasses">
+	       <list>
+	           <value>com.itbaizhan.daowen.entity.Users</value>
+ 
+	          <value>com.itbaizhan.daowen.entity.Attachement</value>
+	          <value>com.itbaizhan.daowen.entity.Notice</value>
+	         
+	          <value>com.itbaizhan.daowen.entity.Xinxi</value>
+	          <value>com.itbaizhan.daowen.entity.Lanmu</value>
+	           <value>com.itbaizhan.daowen.entity.Xinxi</value>
+	          <value>com.itbaizhan.daowen.entity.Jiaodiantu</value>
+	          <value>com.itbaizhan.daowen.entity.Huiyuan</value>
+	          <value>com.itbaizhan.daowen.entity.Leaveword</value>
+	          <value>com.itbaizhan.daowen.entity.Comment</value>
+	          <value>com.itbaizhan.daowen.entity.Friendlink</value>
+	          <value>com.itbaizhan.daowen.entity.Sysconfig</value>
+	         
+                <value>com.itbaizhan.daowen.entity.Dingdan</value>
+                <value>com.itbaizhan.daowen.entity.Dingdanitems</value>
+                <value>com.itbaizhan.daowen.entity.Shangpin</value>
+                <value>com.itbaizhan.daowen.entity.Spcategory</value>
+                 <value>com.itbaizhan.daowen.entity.Indexcolumns</value>
+                 <value>com.itbaizhan.daowen.entity.Sitenav</value>
+                 <value>com.itbaizhan.daowen.entity.Supplyor</value>
+                 
+                <value>com.itbaizhan.daowen.entity.Albumtype</value>
+	            <value>com.itbaizhan.daowen.entity.Album</value>
+	            <value>com.itbaizhan.daowen.entity.Albumitem</value>
+	           
+	        </list>
+	    </property>
+    
+     <property name="hibernateProperties">
+	    <value>
+	        	hibernate.dialect=org.hibernate.dialect.MySQLDialect
+	        	hibernate.hbm2ddl.auto=update
+				hibernate.show_sql=true
+				hibernate.cache.use_second_level_cache=false
+        	    hibernate.cache.provider_class=org.hibernate.cache.internal.NoCacheProvider
+        	    hibernate.generate_statistics=true	      
+	    </value>
+    </property>
+</bean>
+
+   
+
+    
+
+</beans>

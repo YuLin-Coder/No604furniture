@@ -1,0 +1,437 @@
+﻿.list-item
+{
+	width:892px;
+}
+
+.list-item .title ul
+{
+    background-color: #ffebeb;
+    border: 1px solid #d9e3e5;
+    font-size: 12px;
+    font-weight: bold;
+    width:100%;
+    zoom:1;
+    height:34px;
+
+}
+
+.list-item  .title .metal-des, .list-item .title ul li
+{
+	border-right: 1px solid #d9e3e5;
+    float: left;
+    height: 34px;
+    color: #68767d;
+    line-height:34px;
+    min-width:95px;
+    text-align:center;
+}
+
+.list-item .content 
+{
+	
+	background-color: #fff;
+    border: 1px solid #d9e3e5;
+    border-radius: 0 0 5px 5px;
+    color: #3d4c54;
+    
+    min-height:230px;
+    border-bottom: 1px solid #d9e3e5;
+    cursor: pointer;
+    padding: 16px;
+  
+}
+
+.list-item .content .imgwarp
+{
+	width:200px;
+	height:200px;
+	overflow:hidden;
+}
+
+.list-item .content  .job-introduce
+{
+	 color: #4d4d4d;
+	 font-size:14px;
+}
+.list-item .content   .job-introduce ul li
+{
+	 line-height:31px;
+}
+
+/***信息展示页面**/
+.job-info,.news-info
+{
+	border:1px solid #d0d0d0;
+	min-height:600px;
+	background-color:White;
+}
+
+
+/**页面标题**/
+.show-info .title
+{
+	color: #ed1c21;
+	background-color:White;
+    display: inline-block;
+    font: 24px Microsoft Yahei,simsun,arial;
+    padding-top: 14px;
+    width: 100%;
+    text-align:center;
+    border-bottom:2px solid #f40;
+    
+}
+.show-info .title strong
+{
+	color: #ed1c21 ;
+}
+.show-info .subtitle
+{
+	height:41px;
+	line-height:41px;
+	background-color:#f6f6f6;
+	padding-left:20px;
+	padding-right:20px;
+}
+.show-content .title
+{
+	border-bottom: 1px dashed #cacdcc;
+    color: #333;
+    
+    font: bold 14px/40px simsun;
+    height: 40px;
+    
+    padding:15px 15px 2px 15px;
+}
+.show-content .content
+{
+	line-height:30px;
+	padding:12px;
+	background-color:White;
+}
+
+
+
+
+
+/*****图文目录二******/
+
+.imagetextlist
+{
+	width:980px;
+}
+
+.imagetextlist .title
+{
+	background-color: #F6F6F6;
+    border-bottom: 2px solid #FF6C1E;
+    border-top: 1px solid #DFDFDF;
+    height: 26px;
+    
+}
+.imagetextlist .title h2
+{
+	
+    background: none repeat scroll 0 0 #FF6C1E;
+    color: #F1DBBF;
+    float: left;
+    font-size: 12px;
+    height: 27px;
+    line-height: 27px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: 83px;
+
+}
+.imagetextlist .content
+{
+	 display:block;
+	 width:100%;
+	 background-color:White;
+	
+}
+
+.imagetextlist .content .item
+{
+	border-bottom: 1px solid #ECECEC;
+    overflow: hidden;
+    padding: 20px 0 18px;
+}
+
+
+.imagetextlist .content .item .picture
+{
+	float: left;
+    padding-right: 11px;
+    position: relative;
+    width: 228px;
+}
+
+
+
+.imagetextlist .content .item .picture img {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CFCFCF;
+    width: 228px;
+    padding: 3px;
+}
+
+
+.imagetextlist .content .item .text {
+    float: left;
+    width: 690px;
+}
+
+.imagetextlist .content .item h2
+{
+	color: #BCBCBC;
+    font-size: 14px;
+	
+}
+
+
+.imagetextlist .content .item .text .group {
+    line-height: 21px;
+    overflow: hidden;
+    padding: 8px 0;
+    border-bottom:dotted 2px #dcdcdc;
+}
+
+.imagetextlist .content .item .text .group ul
+{
+	
+   
+    width: 100%;
+
+}
+
+
+.imagetextlist .content .item .text .group ul li {
+    color: #777777;
+    height: 20px;
+    line-height: 20px;
+    overflow:hidden;
+    float: left;
+    
+}
+
+.imagetextlist .content .item .text .introduce
+{
+	padding-top:6px;
+}
+
+
+/**文本列表**/
+
+.textlist
+{
+	width:1120px;
+}
+
+.textlist .title
+{
+	background-color: #F6F6F6;
+    border-bottom: 2px solid #FF6C1E;
+    border-top: 1px solid #DFDFDF;
+    height: 26px;
+    
+}
+.textlist .title h2
+{
+	
+    background: none repeat scroll 0 0 #FF6C1E;
+    color: #F1DBBF;
+    float: left;
+    font-size: 12px;
+    height: 27px;
+    line-height: 27px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: 83px;
+   
+
+}
+.textlist .content
+{
+	 display:block;
+	 width:100%;
+	 background-color:White;
+	
+}
+
+.textlist .content .item
+{
+	border-bottom: 1px solid #ECECEC;
+    overflow: hidden;
+    padding: 20px 0 18px;
+    height:90px;
+}
+.textlist .content .item h2
+{
+	
+    color: #4D4D4D;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 30px;
+    border-bottom: 1px dotted #FF6C1E;
+    padding-bottom:8px;
+	
+}
+
+.textlist .content .item .text {
+   
+    padding-left:20px;
+    width: 100%;
+}
+.textlist .content .item .text .group ul
+{
+	
+    width:100%;
+    
+
+}
+
+
+.textlist .content .item .text .group ul li {
+    color: #777777;
+    height: 40px;
+    line-height:30px;
+    float: left;
+    width: 150px;
+    overflow:hidden;
+}
+
+.textlist .content .item .text .introduce
+{
+	padding-top:6px;
+}
+
+
+
+/*页面标题*/
+.page-title {
+    border-color: #d4d4d4;
+    border-style: solid;
+    border-width: 1px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 6px;
+    padding: 0 8px 0 20px;
+}
+
+.news-list
+{
+	background-color: #fafafa;
+    border: 1px solid #e2e2e2;
+    margin: 0 auto;
+    text-align: left;
+    padding-top:12px;
+    padding-bottom:12px;
+    
+}
+
+
+.news-list li h2 {
+    font-size: 15px;
+    height: 18px;
+    margin: 0 auto 12px 20px;
+    overflow: hidden;
+}
+.news-list li .info {
+    background: url("../images/news_bg.gif") repeat-x scroll 0 0 #ffffff;
+    border-color: #dadada;
+    border-style: solid;
+    border-width: 1px;
+    color: #777777;
+    margin: 0 auto 8px 20px;
+    padding: 8px 15px;
+}
+.news-list li .info .time {
+    background: url("../images/icons.gif") no-repeat scroll left -158px;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+.news-list li .info .viewcount {
+    background: url("../images/icons.gif") no-repeat scroll left -36px;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+.news-list li  .des {
+    color: #777777;
+    line-height: 20px;
+    margin: 0 auto 0 20px;
+    font-size:12px;
+}
+.news-list li .pic {
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 1px #eee;
+    float: left;
+    padding: 4px;
+    width: 110px;
+}
+.news-list li .pic img {
+    display: block;
+    height: 110px;
+    width: 110px;
+}
+
+
+.attche-list {
+    font-family: Microsoft Yawei;
+}
+.base-title {
+    border-bottom: 1px solid #dadada;
+    color: #444;
+    font-size: 14px;
+    margin: 20px auto 2px 0;
+    padding-bottom: 5px;
+}
+.base-title span {
+    color: #ccc;
+    float: right;
+    font-size: 12px;
+    font-weight: 100;
+    margin: 5px 0 0;
+}
+.attche-list ul {
+    list-style-image: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+.attche-list ul li {
+    background: url("../images/icon_down.gif") no-repeat scroll left center rgba(0, 0, 0, 0);
+    line-height: 30px;
+    margin: 0;
+    padding-bottom: 0;
+    padding-left: 20px;
+    padding-top: 0;
+}
+.attche-list ul li i {
+    color: #666;
+    font-style: normal;
+    margin-left: 10px;
+}
+.attche-list ul li span {
+    float: right;
+}
+
+.comment
+{
+}
+
+.comment .title
+{
+	border-bottom: 1px solid #e8e8e8;
+    color: #ff2968;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px 20px;
+}
+
+.comment .content dl {
+    background: url("../images/icon4.gif") no-repeat scroll 0 18px rgba(0, 0, 0, 0);
+    border-bottom: 1px dotted #afd7b4;
+    padding: 12px 0 12px 18px;
+}

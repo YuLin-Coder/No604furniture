@@ -1,0 +1,92 @@
+
+.comment-box
+{
+	border-left:1px solid #DADADA;
+	border-right:1px solid #DADADA;
+}
+.comment-box
+{
+	padding-top: 20px;
+	border-top: 1px solid #cde0ec;
+}
+.comment-box h3
+{
+	margin: 0 0 10px 0;
+	padding: 0 0 0 20px;
+	font-size: 14px;
+	line-height: 30px;
+	border-bottom: 1px solid #999;
+	background: url(../images/icon_comment.gif) no-repeat left 8px;
+}
+.comment-box h3.add
+{
+	background-position: left -43px;
+}
+.comment-box h3 span
+{
+	float: right;
+	font-weight: normal;
+	font-size: 12px;
+}
+.comment-list ul
+{
+	list-style-type: none;
+}
+.comment-list ul li
+{
+	margin-bottom: 15px;
+	border-bottom: 1px solid #E1E1E1;
+	margin-left: 0px;
+}
+.comment-list ul li .title
+{
+	padding-left: 20px;
+	font-weight: bold;
+	line-height: 30px;
+	background: url(../images/icon_comment.gif) no-repeat 0 -92px;
+}
+.comment-list ul li .title span
+{
+	float: right;
+	font-size: 12px;
+	color: #999;
+	font-weight: normal;
+}
+.comment-list ul li .content
+{
+	margin-bottom: 10px;
+	line-height: 1.8em;
+	color: #333;
+	padding-left: 20px;
+}
+.comment-list ul li .reply
+{
+	margin-bottom: 15px;
+	padding: 3px 10px;
+	border: 1px solid #F0C59D;
+	color: #F60;
+	background: #F4EDDD;
+	line-height: 1.5em;
+}
+.comment-list ul li .reply .time
+{
+	float: right;
+	color: #999;
+}
+.comment-add textarea
+{
+	width: 400px;
+	height: 80px;
+	overflow: auto;
+}
+.comment-add .btns
+{
+	margin-top: 10px;
+}
+.comment-add .btns .submit
+{
+	float: right;
+}
+
+
+

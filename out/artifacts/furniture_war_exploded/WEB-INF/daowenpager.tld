@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN" "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd"> 
+<taglib> 
+    
+    <tlibversion>1.0</tlibversion> 
+    <jspversion>1.0</jspversion> 
+    <shortname>pager</shortname> 
+    <uri>/daowenpager</uri> 
+    <tag> 
+        <name>pager</name> 
+        <tagclass>com.itbaizhan.daowen.util.DaowenPagerTag</tagclass> 
+        <bodycontent>empty</bodycontent> 
+       
+        <attribute> 
+            <name>id</name> 
+            <required>true</required> 
+            <rtexprvalue>false</rtexprvalue> 
+        </attribute> 
+        <attribute> 
+            <name>metalname</name> 
+            <required>false</required> 
+            <rtexprvalue>false</rtexprvalue> 
+        </attribute> 
+        <attribute>
+           <name>currentpageclass</name>
+           <required>false</required>
+           <rtexprvalue>false</rtexprvalue>
+        </attribute>
+        <attribute>
+           <name>cssclass</name>
+           <required>false</required>
+           <rtexprvalue>false</rtexprvalue>
+        </attribute>
+        <attribute>
+           <name>autoeventhandler</name>
+           <required>false</required>
+           <rtexprvalue>false</rtexprvalue>
+        </attribute>
+          <attribute>
+           <name>attcheform</name>
+           <required>false</required>
+           <rtexprvalue>false</rtexprvalue>
+        </attribute>
+        
+    </tag> 
+</taglib> 

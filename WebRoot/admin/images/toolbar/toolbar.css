@@ -1,0 +1,206 @@
+﻿body
+{
+	font-size:12px;
+	background-color:#EFF7EF;
+}
+.navigation
+{
+	padding-left: 5px;
+	
+	font-family: '宋体';
+	color:Black;
+	line-height: 28px;
+}
+
+.navigation .back
+{
+	float: right;
+	padding-left: 18px;
+	background: url(../images/arrow_left.png) no-repeat left 5px;
+}
+.panel
+{
+	 background-color:White;
+	 border:1px solid #9cbaef;
+	 margin:2px;
+}
+.tools_box
+{
+	border: 1px solid #9cbaef;
+	margin:2px;
+    background-color:#EFF7EF;
+	
+}
+.tools_bar
+{
+	padding-left: 5px;
+	height: 45px;
+	background: url(../images/tools_bg.gif) left 0px repeat-x;
+	overflow: hidden;
+}
+.tools_bar .search_box
+{
+	float: right;
+	margin: 10px 10px 0 0;
+}
+.tools_btn:link, .tools_btn:visited, .tools_btn:active
+{
+	color: #4d4d4d;
+}
+.tools_btn
+{
+	float: left;
+	display: block;
+	margin: 3px 3px 0;
+	padding: 0 0 0 6px;
+	height: 39px;
+	color: #4d4d4d;
+	font: 12px/1.5 arial,verdana;
+	overflow: hidden;
+}
+.toolsbar-btn-line
+{
+	float: left;
+	display: block;
+	margin: 3px 3px 0;
+	padding: 0 0 0 6px;
+	height: 39px;
+	background: url(../images/toolbar-btn-line.png)  no-repeat 0 0;
+
+}
+.tools_btn:hover
+{
+	background: url(../images/tools_btn_bg.gif) no-repeat 0 0;
+}
+.tools_btn span
+{
+	display: block;
+	padding: 0 6px 0 0;
+	background: none;
+}
+.tools_btn:hover span
+{
+	background: url(../images/tools_btn_bg.gif) no-repeat right -39px;
+}
+.tools_btn span b
+{
+	font-weight: normal;
+	display: block;
+	padding: 22px 0 5px;
+	line-height: 15px;
+	background: url(../images/tools_icon.gif) 50% -135px no-repeat;
+}
+.tools_btn span b.add
+{
+	background-position: 50% -295px;
+}
+.tools_btn span b.all
+{
+	background-position: 50% -135px;
+}
+.tools_btn span b.backup
+{
+	background-position: 50% -630px;
+}
+.tools_btn span b.remove
+{
+	background-position: 50% -730px;
+}
+.tools_btn span b.download
+{
+	background-position: 50% -780px;
+}
+.tools_btn span b.refresh
+{
+	background-position: 50% -830px;
+}
+.tools_btn span b.import
+{
+	background-position: 50% -215px;
+}
+.tools_btn span b.export
+{
+	background-position: 50% -255px;
+}
+.tools_btn span b.combine
+{
+	background-position: 50% -335px;
+}
+.tools_btn span b.grade
+{
+	background-position: 50% -376px;
+}
+.tools_btn span b.delete
+{
+	background-position: 50% -175px;
+}
+.tools_btn span b.recover
+{
+	background-position: 50% -680px;
+}
+.tools_btn span b.recycle
+{
+	background-position: 50% -415px;
+}
+.tools_btn span b.filter
+{
+	background-position: 50% -880px;
+}
+.tools_btn span b.common
+{
+	background-position: 50% -930px;
+}
+.tools_btn span b.link
+{
+	background-position: 50% -980px;
+}
+.tools_btn span b.send
+{
+	background-position: 50% -1030px;
+}
+.tools_btn span b.stop
+{
+	background-position: 50% -1080px;
+}
+.tools_btn span b.return
+{
+	background-position: 50% -1130px;
+}
+.tools_btn span b.recharge
+{
+	background-position: 50% -1180px;
+}
+
+
+
+.grid
+{
+	padding:0px;
+	background-color:#FFFFFF;
+}
+.grid th
+{
+	padding: 0em;
+	
+	width:120px;
+    background: url("../images/grid/grid-header-bg.gif") left -150px repeat-x ;
+   
+    height:30px;
+    text-align:center;
+}
+
+.grid td
+{
+	padding: 0em;
+	border: 2px solid #E2F0FF;
+	height:25px;
+	text-align:center;
+}
+.grid .tr_odd_bg
+{
+	/*background: #F9F9F9;*/
+}
+.grid .tr_hover_col
+{
+	background: #E2F0FF;
+}

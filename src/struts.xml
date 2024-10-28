@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	
+   
+    <constant name="struts.devMode" value="true" />
+    <constant name="struts.action.extension" value="do, action"/> 
+    <constant name="struts.multipart.saveDir" value="d:/test"></constant>
+    <constant name="struts.configuration.xml.reload" value="true"/>
+    
+    <constant name="struts.multipart.handler" value="myRequestParser" />
+    
+   <bean type="org.apache.struts2.dispatcher.multipart.MultiPartRequest"
+     name="myRequestParser" class="com.itbaizhan.daowen.util.RequestParseWrapper"
+     scope="default" optional="true" />
+    
+    <package name="admin" extends="struts-default" namespace="/admin">
+       
+    <action name="usersmanager"  class="com.itbaizhan.daowen.action.UsersAction">
+    </action>
+   
+      <action name="friendlinkmanager" class="com.itbaizhan.daowen.action.FriendlinkAction">
+     </action>
+     
+      <action name="jiaodiantumanager" class="com.itbaizhan.daowen.action.JiaodiantuAction">
+      </action>
+    
+      <action name="xinximanager"   class="com.itbaizhan.daowen.action.XinxiAction">
+      </action>
+     
+     
+       <action name="lanmumanager" class="com.itbaizhan.daowen.action.LanmuAction">
+     
+        </action>
+         <action name="sysconfigmanager" class="com.itbaizhan.daowen.action.SysconfigAction">
+     
+        </action>
+    
+     
+      <action name="noticemanager" class="com.itbaizhan.daowen.action.NoticeAction">
+     </action>
+   
+     <action name="shangpinmanager"  class="com.itbaizhan.daowen.action.ShangpinAction">
+     </action>
+     
+      <action name="spcategorymanager" class="com.itbaizhan.daowen.action.SpcategoryAction">
+      </action>
+    
+      <action name="uploadmanager" class="com.itbaizhan.daowen.action.UploadAction">
+     </action>
+     
+  
+     <action name="commentmanager" class="com.itbaizhan.daowen.action.CommentAction">
+     </action>
+     
+     <action name="huiyuanmanager"  class="com.itbaizhan.daowen.action.HuiyuanAction">
+     </action>
+     
+      <action name="supplyormanager"  class="com.itbaizhan.daowen.action.SupplyorAction">
+     </action>
+  
+      <action name="indexcolumnsmanager" class="com.itbaizhan.daowen.action.IndexcolumnsAction">
+     </action>
+     
+      <action name="leavewordmanager" class="com.itbaizhan.daowen.action.LeavewordAction">
+     </action>
+     
+      <action name="dingdanmanager" class="com.itbaizhan.daowen.action.DingdanAction">
+     </action>
+     
+      <action name="sitenavmanager" class="com.itbaizhan.daowen.action.SitenavAction">
+      </action>
+     
+       <action name="albumtypemanager" class="com.itbaizhan.daowen.action.AlbumtypeAction">
+	     </action>
+	     <action name="albummanager" class="com.itbaizhan.daowen.action.AlbumAction">
+	     </action>
+	      <action name="albumitemmanager" class="com.itbaizhan.daowen.action.AlbumitemAction">
+	     </action>
+	     
+    
+    
+         
+             
+    </package>
+
+</struts>

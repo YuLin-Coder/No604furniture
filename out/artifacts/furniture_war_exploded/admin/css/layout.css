@@ -1,0 +1,169 @@
+body
+{
+	margin:0px;
+	padding:0px;
+	font: 12px/1.5 Arial,Helvetica,sans-serif;
+}
+
+.fn-left
+{
+	float:left;
+}
+.fn-right
+{
+	 float:right;
+}
+.fn-clear
+{
+	clear:both;
+}
+a{
+    color: #333;
+    outline-style: none;
+    outline-width: medium;
+    text-decoration: none;
+}
+*
+{
+	padding:0px;
+	margin:0px;
+}
+ol, ul {
+    list-style: none outside none;
+}
+.sys-head
+{
+	/*background: url("../images/bglogo.jpg") repeat-x scroll center top;*/
+	background: url("../images/red-headbg.png") repeat-x scroll center top;
+    width: 100%;
+    clear:both;
+    height:65px;
+    
+}
+.sys-main
+{
+	
+	left:0px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 65px;
+   
+}
+.left-menu
+{
+	
+    background: none repeat scroll 0 0 rgb(254, 247, 241);
+    border: 1px solid rgb(255, 224, 196);
+    position:absolute;
+    margin-left: 0px;
+    min-height: 280px;
+    width: 183px;
+
+}
+
+
+.left-menu li {
+    border-bottom: 1px dashed rgb(252, 230, 209);
+    float: left;
+    padding-bottom: 10px;
+    width: 150px;
+}
+.left-menu li dt {
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+    font-weight: 700;
+    margin: 14px 0 4px 14px;
+}
+.left-menu li dt em {
+    background: url("../images/menu_bg.png") no-repeat scroll 0 -40px rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 18px;
+    margin-right: 4px;
+    vertical-align: middle;
+    width: 17px;
+}
+.left-menu li dt.t2 em {
+    background-position: -40px -40px;
+}
+.left-menu li dt.t3 em {
+    background-position: -80px -40px;
+}
+.left-menu li dt.t4 em {
+    background-position: -120px -40px;
+}
+.left-menu li a {
+    color: rgb(51, 51, 51);
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    margin: 0 6px;
+    overflow: hidden;
+    padding-left: 30px;
+}
+.left-menu li a:visited {
+    color: rgb(51, 51, 51);
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    margin: 0 6px;
+    overflow: hidden;
+    padding-left: 30px;
+}
+.left-menu li a:hover {
+    color: rgb(255, 102, 0);
+    text-decoration: none;
+}
+.left-menu li a.current {
+    background: none repeat scroll 0 0 rgb(255, 153, 0);
+    border: 1px solid rgb(255, 153, 0);
+    border-radius: 3px;
+    color: rgb(255, 255, 255) !important;
+    font-weight: 700;
+    height: 24px;
+    line-height: 24px;
+    padding-left: 28px;
+    position: relative;
+}
+.left-menu li a.current b {
+    background: url("../images/menu_bg.png") no-repeat scroll -160px -40px rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 9px;
+    overflow: hidden;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    width: 6px;
+}
+.left-menu li a.current:hover {
+    color: rgb(255, 255, 255);
+}
+
+.right-content
+{
+
+    bottom: 0;
+    left: 183px;
+    margin-bottom:40px;
+    margin-left: 0;
+    overflow: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+	
+}
+
+.footer {
+    /*background: none repeat scroll 0 0 #4abae1;*/
+    background: none repeat scroll 0 0  #dbbfbc;
+    bottom: 0;
+    color: #f57403;
+    height: 30px;
+    left: 0;
+    line-height: 30px;
+    position: fixed;
+    text-align: right;
+    width: 100%;
+    z-index: 500;
+}

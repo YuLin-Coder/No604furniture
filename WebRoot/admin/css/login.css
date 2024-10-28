@@ -1,0 +1,146 @@
+
+
+body {
+    background: none repeat scroll 0 0  rgb(248, 248, 248);
+    color: rgb(51, 51, 51);
+     padding:0px;
+     margin:0px;
+   
+}
+h2
+{
+	padding:0px;
+	margin:0px;
+}
+
+.main-wrap {
+   
+    padding: 0px;
+    margin:0px;
+   
+   
+}
+.wrap-940 {
+    margin: 0 auto;
+    width: 940px;
+}
+.fnleft
+{
+	float:left;
+}
+.fnright
+{
+	float:right;
+}
+.fnclear
+{
+	clear:both;
+}
+.hide {
+    display: none;
+}
+.login-head
+{
+	background: url("../images/red-headbg.png") repeat-x scroll center top;
+    width: 100%;
+    
+}
+.content
+{
+	margin-top:52px;
+
+}
+.content .login-form
+{
+	background: none repeat scroll 0 0 rgb(255, 255, 255);
+    border-top: 4px solid rgb(248, 181, 0);
+    float: right;
+    
+    width: 400px;
+    height:450px;
+    padding-left:40px;
+    
+}
+
+.login-form  .login-title
+{
+	color: rgb(102, 102, 102);
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    line-height: 50px;
+  
+   
+}
+
+.login-form .item
+{
+	 margin-bottom:10px;
+	 position: relative;
+}
+
+.login-form .item .label
+{
+	color: rgb(153, 153, 153);
+    cursor: text;
+    font-size: 12px;
+    left: 8px;
+    line-height: 18px;
+    position: absolute;
+    top: 11px;
+}
+.login-form .item .text
+{
+	border: 1px solid rgb(176, 176, 176);
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+    height: 16px;
+    line-height: 16px;
+    padding: 11px 16px 11px 40px;
+    width: 242px;
+}
+
+
+.login-wrap {
+    margin: 25px 0 18px;
+}
+
+.login-wrap .login-button {
+   
+    background: url("../images/bg_login_sprite.png") no-repeat scroll;
+    display: inline-block;
+    height: 40px;
+    overflow: hidden;
+    text-indent: -9999em;
+    width: 300px;
+}
+
+.login-wrap .login-button-now {
+    background: url("../images/bg_login_sprite.png") no-repeat 0px -80px;
+    display: block;
+    height: 40px;
+    overflow: hidden;
+    text-indent: -9999em;
+    width: 300px;
+}
+.error-tip {
+    background: none repeat scroll 0 0 rgb(255, 235, 235);
+    border: 1px solid rgb(255, 85, 85);
+    clear: both;
+    margin-bottom: 10px;
+    margin-right:20px;
+    padding: 8px 10px;
+    width:298px;
+}
+.error-tip .error-icon {
+    background: url("../images/tipsicon.png") no-repeat scroll -155px 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    background-position: -155px -210px;
+    float: left;
+    margin-right: 4px;
+}
+.error-tip .error-text
+{
+	color: rgb(255, 0, 0) !important;
+}
